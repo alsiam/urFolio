@@ -21,7 +21,7 @@ Or Download the repo:
 ```sh
 https://github.com/alsiam/alfolio/archive/refs/heads/main.zip
 ```
-## Live Preview
+## [Live Preview](https://alsiam-v1.vercel.app)
 
 <h2 align="center">
   <img src="https://github.com/alsiam/alfolio/blob/main/images/readme/alportfolio.gif" alt="Simplefolio" width="600px" />
