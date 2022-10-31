@@ -22,8 +22,10 @@ Or Download the repo:
 https://github.com/alsiam/portfolio/archive/refs/heads/main.zip
 ```
 ## Demo Pic
+![Al Portfolio](/images/readme/home.png?raw=true "Al Portfolio")
+![Al Portfolio](/images/readme/blogs.png?raw=true "Al Portfolio")
 
-<img align="center" width="500" src="/images/readme/home.png" alt="Coding gif" />
+
 
 ## Usage example
 
