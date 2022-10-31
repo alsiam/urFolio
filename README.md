@@ -21,11 +21,12 @@ Or Download the repo:
 ```sh
 https://github.com/alsiam/portfolio/archive/refs/heads/main.zip
 ```
-## Demo Pic
-![Al Portfolio](/images/readme/home.png?raw=true "Al Portfolio")
-![Al Portfolio](/images/readme/blogs.png?raw=true "Al Portfolio")
+## Live Preview
 
-
+<h2 align="center">
+  <img src="https://github.com/alsiam/portfolio/blob/main/images/readme/alportfolio.gif" alt="Simplefolio" width="600px" />
+  <br>
+</h2>
 
 ## Usage example
 
