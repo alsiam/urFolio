@@ -376,7 +376,8 @@ select {
   height: 200px;
   border-radius: 50%;
   display: inline-block;
-  border: 8px solid #ffffff;
+  border: 8px solid #444;
+  object-fit: cover;
 }
 .home .intro h1 {
   font-size: 30px;
