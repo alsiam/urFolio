@@ -1,10 +1,6 @@
-/*Font Awesome Free Icon*/
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-/*Google fonts*/
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap");
-
-/* General style */
+/* General style 
+======================================================== */
 html {
   scroll-behavior: smooth;
 }
@@ -226,7 +222,8 @@ select {
   }
 }
 
-/* Aside */
+/* Aside bar Style
+================================================================ */
 .aside {
   width: 270px;
   background-color: #fdf9ff;
@@ -362,7 +359,9 @@ select {
   font-size: 14px;
   color: #7d7d7d;
 }
-/* Home */
+
+/* Home Section
+====================================================*/
 .home {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -376,8 +375,7 @@ select {
   height: 200px;
   border-radius: 50%;
   display: inline-block;
-  border: 8px solid #444;
-  object-fit: cover;
+  border: 8px solid #ffffff;
 }
 .home .intro h1 {
   font-size: 30px;
@@ -413,7 +411,8 @@ select {
   transform: scale(1.1);
 }
 
-/* ABout Section */
+/* ABout Section
+========================================================== */
 
 .about .about-content {
   -ms-flex: 0 0 100%;
@@ -438,7 +437,6 @@ select {
   margin: 0;
 }
 .about .about-content .personal-info {
-  /* background-color: red; */
   -ms-flex: 0 0 60%;
   flex: 0 0 60%;
   max-width: 60%;
@@ -594,7 +592,8 @@ select {
   margin: 0;
 }
 
-/* Service Section started here */
+/* Service Section 
+============================================================== */
 
 .service .container {
   padding-bottom: 40px;
@@ -624,7 +623,6 @@ select {
 .service .service-item .service-item-inner .icon {
   height: 60px;
   width: 60px;
-  /* background-color: red; */
   display: block;
   margin: 0 auto 30px;
   text-align: center;
@@ -654,16 +652,19 @@ select {
   color: #504e70;
   line-height: 25px;
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-/* Portfolio Section  */
-
+/* Portfolio Section
+================================================================  */
 .portfolio .container {
   padding-bottom: 40px;
 }
 
 .portfolio .portfolio-filter {
-  /* background-color: red; */
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
@@ -686,7 +687,6 @@ select {
   transition: all 0.3 ease;
 }
 .portfolio .portfolio-item {
-  /* background-color: red; */
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
@@ -728,10 +728,13 @@ select {
   overflow: hidden;
   cursor: pointer;
   position: relative;
+  width: 100%;
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
-  width: 100%;
   display: block;
+  width: 100%;
+  height: 14rem;
+  object-fit: fill;
 }
 .portfolio .portfolio-item .portfolio-info {
   position: absolute;
@@ -788,7 +791,6 @@ select {
 .portfolio .portfolio-item .portfolio-info .icon .fa {
   line-height: 40px;
 }
-/* Portfolio Section End */
 
 /* Lightbox  */
 
@@ -852,7 +854,6 @@ select {
   position: absolute;
   height: 40px;
   width: 40px;
-  /* background-color: red; */
   top: 0;
   right: 0px;
   font-size: 32px;
@@ -911,14 +912,12 @@ select {
   line-height: 40px;
 }
 
-/* Lightbox Ended */
-
-/* Blog Section started */
+/* Blog Section started
+========================================================================== */
 .blog .container {
   padding-bottom: 40px;
 }
 .blog .blog-item {
-  /* background-color: red; */
   -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -972,6 +971,10 @@ select {
   color: #504e70;
   font-weight: 400;
   margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .blog .blog-item-inner .blog-info .blog-tags {
   font-size: 14px;
@@ -985,8 +988,8 @@ select {
   font-weight: 600;
 }
 
-/* Contact Section */
-
+/* Contact Section 
+====================================================== */
 .contact .contact-info-item {
   flex: 0 0 33.33%;
   -ms-flex: 0 0 33.33%;
@@ -1062,7 +1065,7 @@ body.dark .section {
   background-color: #151515;
 }
 body.dark .contact .contact-form .form-item .form-control,
-body.dark .blog .blog-item-inner .blog-info,
+body.dark .blog .blog-item-inner,
 body.dark .service .service-item .service-item-inner,
 body.dark .about .about-content .timeline,
 body.dark .aside {
@@ -1108,6 +1111,7 @@ body.dark .about .about-content .personal-info .info-item p,
 body.dark .aside .nav li a {
   border-color: #393939;
 }
+
 body.dark .contact .contact-form .form-item input::placeholder,
 body.dark .contact .contact-form .form-item textarea::placeholder {
   color: #fff;
@@ -1192,6 +1196,3 @@ body.dark .shadow-dark {
     max-width: 100%;
   }
 }
-/* ======================================================
- ---------------  Responsive Css Ended
-====================================================== */

@@ -1,15 +1,15 @@
-# Dev Portfolio
+# Al Siam - Portfolio Web
 
-![Version](https://img.shields.io/github/v/release/alsiam/dev-portfolio)
-![License](https://img.shields.io/github/license/alsiam/dev-portfolio?color=blue)
-![Stars](https://img.shields.io/github/stars/alsiam/dev-portfolio)
-![Forks](https://img.shields.io/github/forks/alsiam/dev-portfolio)
+![Version](https://img.shields.io/github/v/release/alsiam/alsiam.github.io)
+![License](https://img.shields.io/github/license/alsiam/alsiam.github.io?color=blue)
+![Stars](https://img.shields.io/github/stars/alsiam/alsiam.github.io)
+![Forks](https://img.shields.io/github/forks/alsiam/alsiam.github.io)
 
 A stunning portfolio website showcasing your skills and projects using HTML, CSS, and JavaScript.
 
-Visit the [Live Preview](https://dev-portfolio.netlify.app)
+Visit the [Live Preview](https://alsiam.github.io)
 
-![Dev Portfolio](https://github.com/alsiam/dev-portfolio/blob/main/images/readme/alportfolio.gif)
+![Al Siam](https://github.com/alsiam/alsiam.github.io/blob/main/assets/imgs/preview.gif)
 
 ## Features
 
@@ -32,8 +32,7 @@ A portfolio is more than just a resume; it's a powerful tool that:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/alsiam/dev-portfolio.git
+$ git clone https://github.com/alsiam/alsiam.github.io.git
+
 # Navigate to the project folder
-$ cd dev-portfolio
-# Remove the original remote repository
-$ git remote remove origin
+$ cd alsiam.github.io
