@@ -1,9 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 const Sidebar = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(!open);
+  };
+
   return (
-    <aside className="aside">
-      <div className="nav-toggler">
+    <aside className={`aside ${open ? "open" : ""}`}>
+      <div onClick={handleOpen} className="nav-toggler"> 
         <span />
       </div>
       <div className="aside-inner">

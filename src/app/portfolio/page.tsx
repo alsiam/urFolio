@@ -3,7 +3,6 @@ import type { NextPage } from "next";
 const Portfolio: NextPage = () => {
   return (
     <div>
-      &lt;&gt;
       <section className="portfolio section" id="portfolio">
         <div className="container">
           <div className="row">
