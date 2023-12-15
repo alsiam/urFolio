@@ -17,7 +17,7 @@ const Sidebar = () => {
       </div>
       <div className="aside-inner">
         <div className="logo">
-          <a href="/">Al Siam</a>
+          <a href="/">Logo</a>
         </div>
         <ul className="nav">
           <li>
@@ -51,7 +51,7 @@ const Sidebar = () => {
             </Link>
           </li>
         </ul>
-        <div className="copyright">© 2020 All Rights Reserved By Al Siam</div>
+        <div className="copyright">Created with ❤️ By <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">Al Siam</a></div>
       </div>
     </aside>
   );
