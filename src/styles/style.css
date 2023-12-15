@@ -1061,64 +1061,64 @@ select {
 ------- Dark Body
 ================================*/
 
-body.dark .section {
+[data-theme='dark'] .section {
   background-color: #151515;
 }
-body.dark .contact .contact-form .form-item .form-control,
-body.dark .blog .blog-item-inner,
-body.dark .service .service-item .service-item-inner,
-body.dark .about .about-content .timeline,
-body.dark .aside {
+[data-theme='dark'] .contact .contact-form .form-item .form-control,
+[data-theme='dark'] .blog .blog-item-inner,
+[data-theme='dark'] .service .service-item .service-item-inner,
+[data-theme='dark'] .about .about-content .timeline,
+[data-theme='dark'] .aside {
   background-color: #222222;
 }
 
-body.dark .contact .contact-info-item h4,
-body.dark .blog .blog-item-inner .blog-info .blog-title,
-body.dark .portfolio .portfolio-filter button,
-body.dark .service .service-item .service-item-inner h4,
-body.dark .about .about-content .timeline .timeline-title,
-body.dark .about .about-content h3.title,
-body.dark .about .about-content .skills .skill-item h5,
-body.dark .about .about-content .personal-info .info-item p,
-body.dark .about .about-content .about-text h2,
-body.dark .section-title h2,
-body.dark .home .intro h1,
-body.dark .aside .copyright,
-body.dark .aside .logo a,
-body.dark .aside .nav li a {
+[data-theme='dark'] .contact .contact-info-item h4,
+[data-theme='dark'] .blog .blog-item-inner .blog-info .blog-title,
+[data-theme='dark'] .portfolio .portfolio-filter button,
+[data-theme='dark'] .service .service-item .service-item-inner h4,
+[data-theme='dark'] .about .about-content .timeline .timeline-title,
+[data-theme='dark'] .about .about-content h3.title,
+[data-theme='dark'] .about .about-content .skills .skill-item h5,
+[data-theme='dark'] .about .about-content .personal-info .info-item p,
+[data-theme='dark'] .about .about-content .about-text h2,
+[data-theme='dark'] .section-title h2,
+[data-theme='dark'] .home .intro h1,
+[data-theme='dark'] .aside .copyright,
+[data-theme='dark'] .aside .logo a,
+[data-theme='dark'] .aside .nav li a {
   color: #fff;
 }
-body.dark .contact .contact-form .form-item .form-control,
-body.dark .contact .contact-info-item p,
-body.dark .blog .blog-item-inner .blog-info .blog-tags,
-body.dark .blog .blog-item-inner .blog-info .blog-description,
-body.dark .service .service-item .service-item-inner p,
-body.dark .about .about-content .timeline .timeline-text,
-body.dark .about .about-content .timeline .timeline-date,
-body.dark .about .about-content .skills .skill-item .skill-percent,
-body.dark .about .about-content .personal-info .info-item p span,
-body.dark .about .about-content .about-text p,
-body.dark .home .intro p {
+[data-theme='dark'] .contact .contact-form .form-item .form-control,
+[data-theme='dark'] .contact .contact-info-item p,
+[data-theme='dark'] .blog .blog-item-inner .blog-info .blog-tags,
+[data-theme='dark'] .blog .blog-item-inner .blog-info .blog-description,
+[data-theme='dark'] .service .service-item .service-item-inner p,
+[data-theme='dark'] .about .about-content .timeline .timeline-text,
+[data-theme='dark'] .about .about-content .timeline .timeline-date,
+[data-theme='dark'] .about .about-content .skills .skill-item .skill-percent,
+[data-theme='dark'] .about .about-content .personal-info .info-item p span,
+[data-theme='dark'] .about .about-content .about-text p,
+[data-theme='dark'] .home .intro p {
   color: #e9e9e9;
 }
-body.dark .aside,
-body.dark .contact .contact-form .form-item .form-control,
-body.dark .blog .blog-item-inner,
-body.dark .portfolio .portfolio-item-inner,
-body.dark .service .service-item .service-item-inner,
-body.dark .about .about-content .timeline,
-body.dark .about .about-content .personal-info .info-item p,
-body.dark .aside .nav li a {
+[data-theme='dark'] .aside,
+[data-theme='dark'] .contact .contact-form .form-item .form-control,
+[data-theme='dark'] .blog .blog-item-inner,
+[data-theme='dark'] .portfolio .portfolio-item-inner,
+[data-theme='dark'] .service .service-item .service-item-inner,
+[data-theme='dark'] .about .about-content .timeline,
+[data-theme='dark'] .about .about-content .personal-info .info-item p,
+[data-theme='dark'] .aside .nav li a {
   border-color: #393939;
 }
 
-body.dark .contact .contact-form .form-item input::placeholder,
-body.dark .contact .contact-form .form-item textarea::placeholder {
+[data-theme='dark'] .contact .contact-form .form-item input::placeholder,
+[data-theme='dark'] .contact .contact-form .form-item textarea::placeholder {
   color: #fff;
   opacity: 0.8;
 }
 
-body.dark .shadow-dark {
+[data-theme='dark'] .shadow-dark {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
