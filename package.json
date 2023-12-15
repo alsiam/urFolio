@@ -1,24 +1,24 @@
 {
-  "name": "folio",
-  "version": "1.0.0",
-  "description": "Al Siam - Open Source Portfolio Website",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alsiam/alsiam.github.io.git"
+  "name": "urfolio",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [
-    "alsiam",
-    "al",
-    "siam",
-    "al siam",
-    "saif al siam",
-    "portfolio",
-    "personal website"
-  ],
-  "author": "Al Siam",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alsiam/alsiam.github.io/issues"
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.4"
   },
-  "homepage": "https://alsiam.com"
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
 }
