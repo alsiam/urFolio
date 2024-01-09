@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import "../styles/style.css";
 import "../styles/blue.css";
@@ -28,6 +29,7 @@ export default function RootLayout({
           <Sidebar />
           {children}
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
