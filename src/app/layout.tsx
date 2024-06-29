@@ -12,7 +12,7 @@ import ThemeSwitch from "@/components/panel/ThemeSwitch";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GS Developer",
+  title: "Portfolio - gscripts",
   description: "Presentational portfolio",
 };
 
