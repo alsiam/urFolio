@@ -24,23 +24,18 @@ const About: NextPage = () => {
               </div>
               <div className="row">
                 <div className="education padd-15">
-                  <h3 className="title">Education</h3>
-                  <div className="row">
+                  <h3 className="title">Education and Training</h3>  <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
+                            <i className="fa fa-calendar" /> April 2022  </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
-                          </h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
+                            Responsive Web Design Course
+                          </h4>  <p className="timeline-text">
+                            FreeCodeCamp.org
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -48,15 +43,12 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
-                          </h6>
+                            <i className="fa fa-calendar" /> 2014-2019  </h6>
                           <h4 className="timeline-title">
-                            Diploma in Civil Engineering
-                          </h4>
-                          <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
+                            Bachelor's Degree in Computer Science
+                          </h4>  <p className="timeline-text">
+                            University of Catania, Department of Computer Science (Italy)  <br/>
+                            Final grade: 91/110
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -64,24 +56,21 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
-                          </h6>
+                            <i className="fa fa-calendar" /> March 2018 - July 2018  </h6>
                           <h4 className="timeline-title">
-                            Secondary School Certificate
-                          </h4>
-                          <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
-                          </p>
+                            Training Internship as Entertainment Industry Operator
+                          </h4>  <p className="timeline-text">
+                            Note International Accademy, Associazione meridies sc, Catania (Italy)  <br/>
+                            - Assembly and disassembly of audio and lighting services  - Assistant to the audio director (studio and live sessions)  </p>
                         </div>
                         {/* Timeline Item end */}
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div className="experience padd-15">
-                  <h3 className="title">Experience</h3>
+                  <h3 className="title">Professional Experience</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
@@ -89,40 +78,15 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> July 2022 - Present
                           </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
+                          <h4 className="timeline-title">Front-End Developer</h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">Web Design</h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
+                          Creationdose, Catania, Italy <br/>
+                          • Developement of company Design Systems 
+                          • Maintenance of company website <br/>
+                          • Maintenance of company website <br/>
+                          • Maintenance of mobile applications (Vidoser)
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -130,6 +94,7 @@ const About: NextPage = () => {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
