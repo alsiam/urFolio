@@ -41,14 +41,14 @@ const Sidebar = () => {
               <i className="fa fa-user" /> About
             </Link>
           </li>
-          <li onClick={handleClose}>
+          {/* <li onClick={handleClose}>
             <Link
               href="/services"
               className={`${pathUrl == "/services" && "active"}`}
             >
               <i className="fa fa-list" /> Services
             </Link>
-          </li>
+          </li> */}
           <li onClick={handleClose}>
             <Link
               href="/portfolio"
@@ -57,11 +57,11 @@ const Sidebar = () => {
               <i className="fa fa-briefcase" /> Portfolio
             </Link>
           </li>
-          <li onClick={handleClose}>
+          {/* <li onClick={handleClose}>
             <Link href="/blog" className={`${pathUrl == "/blog" && "active"}`}>
               <i className="fa fa-envelope" /> Blog
             </Link>
-          </li>
+          </li> */}
           <li onClick={handleClose}>
             <Link
               href="/contact"
@@ -72,7 +72,7 @@ const Sidebar = () => {
           </li>
         </ul>
         <div className="copyright">
-          Created with ❤️ By{" "}
+          Template Created with ❤️ By{" "}
           <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
             Al Siam
           </a>
