@@ -7,16 +7,16 @@ export default async function Home() {
         <div className="container">
           <div className="intro">
             <img
-              src="/imgs/alsiam.png"
+              src="/imgs/GS-Photo.webp"
               alt="Al Siam Profile"
               className="shadow-dark"
             />
-            <h1>Your Name</h1>
-            <p>Your expertise</p>
+            <h1>Simone Guarnuccio</h1>
+            <p>Frontend Developers</p>
             <div className="social-links">
-              <a href="https://twitter.com/" target="_blank">
+              {/* <a href="https://twitter.com/" target="_blank">
                 <i className="fa fa-twitter" />
-              </a>
+              </a> */}
               <a href="https://facebook.com/" target="_blank">
                 <i className="fa fa-facebook" />
               </a>
