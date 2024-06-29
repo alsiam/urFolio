@@ -45,7 +45,7 @@ const About: NextPage = () => {
                           <h6 className="timeline-date">
                             <i className="fa fa-calendar" /> 2014-2019  </h6>
                           <h4 className="timeline-title">
-                            Bachelor's Degree in Computer Science
+                            Bachelor&apos;s Degree in Computer Science
                           </h4>  <p className="timeline-text">
                             University of Catania, Department of Computer Science (Italy)  <br/>
                             Final grade: 91/110
