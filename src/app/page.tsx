@@ -12,7 +12,7 @@ export default async function Home() {
               className="shadow-dark"
             />
             <h1>Simone Guarnuccio</h1>
-            <p>Frontend Developers</p>
+            <p>Frontend Developer</p>
             <div className="social-links">
               {/* <a href="https://twitter.com/" target="_blank">
                 <i className="fa fa-twitter" />
