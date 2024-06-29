@@ -33,14 +33,14 @@ const Sidebar = () => {
               <i className="fa fa-home" /> Home
             </Link>
           </li> */}
-          {/* <li onClick={handleClose}>
+          <li onClick={handleClose}>
             <Link
               href="/about"
               className={`${pathUrl == "/about" && "active"}`}
             >
               <i className="fa fa-user" /> About
             </Link>
-          </li> */}
+          </li>
           {/* <li onClick={handleClose}>
             <Link
               href="/services"
