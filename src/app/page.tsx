@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 export default async function Home() {
 
   return (
@@ -6,13 +6,15 @@ export default async function Home() {
       <section className="home section" id="home">
         <div className="container">
           <div className="intro">
-            <img
+            <Image
               src="/imgs/GS-Photo.webp"
-              alt="Al Siam Profile"
+              alt="gscripts"
               className="shadow-dark"
+              width={200}
+              height={200}
             />
             <h1>Simone Guarnuccio</h1>
-            <p>Frontend Developer</p>
+            <p>Frontend Developers</p>
             <div className="social-links">
               {/* <a href="https://twitter.com/" target="_blank">
                 <i className="fa fa-twitter" />

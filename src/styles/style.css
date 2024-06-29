@@ -371,8 +371,6 @@ select {
   text-align: center;
 }
 .home .intro img {
-  width: 200px;
-  height: 200px;
   border-radius: 50%;
   display: inline-block;
   border: 8px solid #ffffff;
