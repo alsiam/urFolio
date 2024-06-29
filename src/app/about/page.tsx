@@ -18,96 +18,14 @@ const About: NextPage = () => {
                     Simone Guarnuccio <span>Frontend Developer</span>
                   </h2>
                   <p>
-                   {` I'm Simone Guarnuccio. Since 2021 I've been working as a Front End Developer at <a href="https://creationdose.com" target="_blank">Creationdose</a>, an company focused on creator economy based in Catania, Italy.
-                    I'm passionate about creating beautiful and user-friendly applications start from found some flow that can be automated.
-                    Since joining Creationdose, I've been primarily focused on developing mobile applications using React Native. I enjoy the challenges and opportunities that come with cross-platform development, and I'm always learning new things in this ever-evolving field.`}
+                    I am Simone Guarnuccio. I have been working as a Front End Developer at <a href="https://creationdose.com" target="_blank"><em>Creationdose</em></a>, an company focused on creator economy based in Catania, Italy.
                   </p>
-                </div>
-              </div>
-              <div className="row">
-                <div className="personal-info padd-15">
-                  <div className="row">
-                    <div className="info-item padd-15">
-                      <p>
-                        Website : <span>www.urfolio.vercel.app</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Email : <span>your@email.com</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Degree : <span>SSC</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Phone : <span>+99 ********</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        City : <span>Your City</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Freelance : <span>Available</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="buttons padd-15">
-                      <a
-                        href="/assets/docs/resume.pdf"
-                        target="_target"
-                        className="btn"
-                      >
-                        Download CV
-                      </a>
-                      <a
-                        href="#contact"
-                        data-section-index={0}
-                        className="btn hire-me"
-                      >
-                        Hire Me
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="skills padd-15">
-                  <div className="row">
-                    <div className="skill-item padd-15">
-                      <h5>Html5</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Css3</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
-                      </div>
-                    </div>
-                  </div>
+                  <p>
+                    I am passionate about creating beautiful and user-friendly applications start from found some flow that can be automated.
+                  </p>
+                  <p>
+                    I have been primarily focused on developing mobile applications using React Native. I enjoy the challenges and opportunities that come with cross-platform development, and I am always learning new things in this ever-evolving field.
+                  </p>
                 </div>
               </div>
               <div className="row">
