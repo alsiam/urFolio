@@ -7,7 +7,7 @@ export default async function Home() {
         <div className="container">
           <div className="intro">
             <Image
-              src="/imgs/GS-Photo.webp"
+              src="/imgs/alsiam.png"
               alt="gscripts"
               className="shadow-dark"
               width={200}
