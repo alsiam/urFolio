@@ -47,7 +47,7 @@ const About: NextPage = () => {
                           <h4 className="timeline-title">
                             Bachelor&apos;s Degree in Computer Science
                           </h4>  <p className="timeline-text">
-                            University of Catania, Department of Computer Science (Italy)  <br/>
+                            University of Catania, Department of Computer Science, Italy  <br/>
                             Final grade: 91/110
                           </p>
                         </div>
@@ -62,6 +62,19 @@ const About: NextPage = () => {
                           </h4>  <p className="timeline-text">
                             Note International Accademy, Associazione meridies sc, Catania (Italy)  <br/>
                             - Assembly and disassembly of audio and lighting services  - Assistant to the audio director (studio and live sessions)  </p>
+                        </div>
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2009-2014
+                          </h6>
+                          <h4 className="timeline-title">Technical Electronics Diploma</h4>
+                          <p className="timeline-text">
+                            {`I.P.I.A. "G. Marconi", Vittoria (RG), Italia`}<br/>
+                            Final grade: 87/100
+                          </p>
                         </div>
                         {/* Timeline Item end */}
                       </div>
@@ -87,6 +100,21 @@ const About: NextPage = () => {
                           • Maintenance of company website <br/>
                           • Maintenance of company website <br/>
                           • Maintenance of mobile applications (Vidoser)
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> October 2017 - Present
+                          </h6>
+                          <h4 className="timeline-title">Technical Smartphone and Computer Technician</h4>
+                          <p className="timeline-text">
+                            SOSPHONE Catania, Italy <br/>
+                            • Repair smartphones Huawei, Apple, Samsung, Xiaomi, Oppo, LG  <br/>
+                            • Hardware and Software Assistance for PC <br/>
+                            • Sales Representative
                           </p>
                         </div>
                         {/* Timeline Item end */}
