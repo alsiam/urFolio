@@ -17,15 +17,9 @@ const About: NextPage = () => {
                   <h2>
                     Simone Guarnuccio <span>Frontend Developer</span>
                   </h2>
-                  <p>
-                    I am Simone Guarnuccio. I have been working as a Front End Developer at <a href="https://creationdose.com" target="_blank"><em>Creationdose</em></a>, an company focused on creator economy based in Catania, Italy.
-                  </p>
-                  <p>
-                    I am passionate about creating beautiful and user-friendly applications start from found some flow that can be automated.
-                  </p>
-                  <p>
-                    I have been primarily focused on developing mobile applications using React Native. I enjoy the challenges and opportunities that come with cross-platform development, and I am always learning new things in this ever-evolving field.
-                  </p>
+
+                  <p>I am Simone, an Enthusiastic Developer with experience building beautiful and user-friendly mobile applications using React Native at Creationdose, a Catania, Italy-based creator economy company.</p>
+                  <p> I thrive on automating workflows and tackling the challenges of cross-platform development. I am a passionate learner, constantly seeking new advancements in this ever-evolving field.</p>
                 </div>
               </div>
               <div className="row">
