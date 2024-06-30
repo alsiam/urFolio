@@ -31,6 +31,46 @@ const About: NextPage = () => {
               </div>
 
               <div className="row">
+                <div className="experience padd-15">
+                  <h3 className="title">Professional Experience</h3>
+                  <div className="row">
+                    <div className="timeline-box padd-15">
+                      <div className="timeline shadow-dark">
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> July 2022 - Present
+                          </h6>
+                          <h4 className="timeline-title">Front-End Developer</h4>
+                          <p className="timeline-text">
+                          Creationdose, Catania, Italy <br/>
+                          • Developement of company Design Systems 
+                          • Maintenance of company website <br/>
+                          • Maintenance of company website <br/>
+                          • Maintenance of mobile applications (Vidoser)
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> October 2017 - Present
+                          </h6>
+                          <h4 className="timeline-title">Technical Smartphone and Computer Technician</h4>
+                          <p className="timeline-text">
+                            SOSPHONE Catania, Italy <br/>
+                            • Repair smartphones Huawei, Apple, Samsung, Xiaomi, Oppo, LG  <br/>
+                            • Hardware and Software Assistance for PC <br/>
+                            • Sales Representative
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="education padd-15">
                   <h3 className="title">Education and Training</h3>  <div className="row">
                     <div className="timeline-box padd-15">
@@ -90,46 +130,6 @@ const About: NextPage = () => {
                   </div>
                 </div>
 
-                <div className="experience padd-15">
-                  <h3 className="title">Professional Experience</h3>
-                  <div className="row">
-                    <div className="timeline-box padd-15">
-                      <div className="timeline shadow-dark">
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> July 2022 - Present
-                          </h6>
-                          <h4 className="timeline-title">Front-End Developer</h4>
-                          <p className="timeline-text">
-                          Creationdose, Catania, Italy <br/>
-                          • Developement of company Design Systems 
-                          • Maintenance of company website <br/>
-                          • Maintenance of company website <br/>
-                          • Maintenance of mobile applications (Vidoser)
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> October 2017 - Present
-                          </h6>
-                          <h4 className="timeline-title">Technical Smartphone and Computer Technician</h4>
-                          <p className="timeline-text">
-                            SOSPHONE Catania, Italy <br/>
-                            • Repair smartphones Huawei, Apple, Samsung, Xiaomi, Oppo, LG  <br/>
-                            • Hardware and Software Assistance for PC <br/>
-                            • Sales Representative
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
