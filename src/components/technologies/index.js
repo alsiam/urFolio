@@ -5,12 +5,24 @@ import Image from "next/image";
 
 const tecnologie = [
   {
+    name: "Javascript",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/javascript.svg",
+  },
+  {
     name: "React",
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/react.svg",
   },
   {
     name: "Next",
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/nextdotjs.svg",
+  },
+  {
+    name: "Expo",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/expo.svg",
+  },
+  {
+    name: "Tailwind",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/tailwindcss.svg",
   },
   {
     name: "Redux",
@@ -29,10 +41,6 @@ const tecnologie = [
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/gitlab.svg",
   },
   {
-    name: "Expo",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/expo.svg",
-  },
-  {
     name: "Firebase",
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/firebase.svg",
   },
@@ -47,6 +55,10 @@ const tecnologie = [
   {
     name: "netlify",
     icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/netlify.svg",
+  },
+  {
+    name: "vercel",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/vercel.svg",
   },
 ];
 
@@ -71,9 +83,9 @@ const TecnologieCarousel = () => {
               height={64}
               className="icon-background mx-auto"
             />
-            {/* <span className="block mt-2 text-lg font-semibold">
+            <span className="block mt-2 text-lg font-semibold">
               {tech.name}
-            </span> */}
+            </span>
           </div>
         ))}
       </Marquee>
