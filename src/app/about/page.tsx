@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-
+import Tecnologies from "../../components/technologies"
 const About: NextPage = () => {
   return (
     <main>
@@ -22,6 +22,14 @@ const About: NextPage = () => {
                   <p> I thrive on automating workflows and tackling the challenges of cross-platform development. I am a passionate learner, constantly seeking new advancements in this ever-evolving field.</p>
                 </div>
               </div>
+
+              <div className="experience padd-15">
+                <h3 className="title">Skills on</h3>
+                <div className="row">
+                  <Tecnologies />
+                </div>
+              </div>
+
               <div className="row">
                 <div className="education padd-15">
                   <h3 className="title">Education and Training</h3>  <div className="row">
@@ -122,7 +130,6 @@ const About: NextPage = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
