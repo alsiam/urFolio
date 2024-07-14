@@ -1,4 +1,6 @@
-# Readme per il sito portfolio di Simone Guarnuccio
+# Readme Portfolio di Simone Guarnuccio
+
+![Portfolio Sceeen](/public/imgs/site-screen.png)
 
 ## Descrizione
 

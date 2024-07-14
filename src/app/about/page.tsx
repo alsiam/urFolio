@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-
+import Tecnologies from "../../components/technologies"
 const About: NextPage = () => {
   return (
     <main>
@@ -17,159 +17,22 @@ const About: NextPage = () => {
                   <h2>
                     Simone Guarnuccio <span>Frontend Developer</span>
                   </h2>
-                  <p>
-                   {` I'm Simone Guarnuccio. Since 2021 I've been working as a Front End Developer at <a href="https://creationdose.com" target="_blank">Creationdose</a>, an company focused on creator economy based in Catania, Italy.
-                    I'm passionate about creating beautiful and user-friendly applications start from found some flow that can be automated.
-                    Since joining Creationdose, I've been primarily focused on developing mobile applications using React Native. I enjoy the challenges and opportunities that come with cross-platform development, and I'm always learning new things in this ever-evolving field.`}
-                  </p>
+
+                  <p>I am Simone, an Enthusiastic Developer with experience building beautiful and user-friendly mobile applications using React Native at Creationdose, a Catania, Italy-based creator economy company.</p>
+                  <p> I thrive on automating workflows and tackling the challenges of cross-platform development. I am a passionate learner, constantly seeking new advancements in this ever-evolving field.</p>
                 </div>
               </div>
-              <div className="row">
-                <div className="personal-info padd-15">
-                  <div className="row">
-                    <div className="info-item padd-15">
-                      <p>
-                        Website : <span>www.urfolio.vercel.app</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Email : <span>your@email.com</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Degree : <span>SSC</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Phone : <span>+99 ********</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        City : <span>Your City</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Freelance : <span>Available</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="buttons padd-15">
-                      <a
-                        href="/assets/docs/resume.pdf"
-                        target="_target"
-                        className="btn"
-                      >
-                        Download CV
-                      </a>
-                      <a
-                        href="#contact"
-                        data-section-index={0}
-                        className="btn hire-me"
-                      >
-                        Hire Me
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="skills padd-15">
-                  <div className="row">
-                    <div className="skill-item padd-15">
-                      <h5>Html5</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Css3</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
-                      </div>
-                    </div>
-                  </div>
+
+              <div className="experience padd-15">
+                <h3 className="title">Skills on</h3>
+                <div className="row">
+                  <Tecnologies />
                 </div>
               </div>
+
               <div className="row">
-                <div className="education padd-15">
-                  <h3 className="title">Education</h3>
-                  <div className="row">
-                    <div className="timeline-box padd-15">
-                      <div className="timeline shadow-dark">
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">
-                            Self Taught (Programming)
-                          </h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
-                          </h6>
-                          <h4 className="timeline-title">
-                            Diploma in Civil Engineering
-                          </h4>
-                          <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
-                          </h6>
-                          <h4 className="timeline-title">
-                            Secondary School Certificate
-                          </h4>
-                          <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div className="experience padd-15">
-                  <h3 className="title">Experience</h3>
+                  <h3 className="title">Professional Experience</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
@@ -177,13 +40,15 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> July 2022 - Present
                           </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
+                          <h4 className="timeline-title">Front-End Developer</h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
+                          Creationdose, Catania, Italy <br/>
+                          • Developement of company Design Systems 
+                          • Maintenance of company website <br/>
+                          • Maintenance of company website <br/>
+                          • Maintenance of mobile applications (Vidoser)
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -191,26 +56,14 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> October 2017 - Present
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">Technical Smartphone and Computer Technician</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
+                            SOSPHONE Catania, Italy <br/>
+                            • Repair smartphones Huawei, Apple, Samsung, Xiaomi, Oppo, LG  <br/>
+                            • Hardware and Software Assistance for PC <br/>
+                            • Sales Representative
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -218,6 +71,65 @@ const About: NextPage = () => {
                     </div>
                   </div>
                 </div>
+                <div className="education padd-15">
+                  <h3 className="title">Education and Training</h3>  <div className="row">
+                    <div className="timeline-box padd-15">
+                      <div className="timeline shadow-dark">
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> April 2022  </h6>
+                          <h4 className="timeline-title">
+                            Responsive Web Design Course
+                          </h4>  <p className="timeline-text">
+                            FreeCodeCamp.org
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2014-2019  </h6>
+                          <h4 className="timeline-title">
+                            Bachelor&apos;s Degree in Computer Science
+                          </h4>  <p className="timeline-text">
+                            University of Catania, Department of Computer Science, Italy  <br/>
+                            Final grade: 91/110
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> March 2018 - July 2018  </h6>
+                          <h4 className="timeline-title">
+                            Training Internship as Entertainment Industry Operator
+                          </h4>  <p className="timeline-text">
+                            Note International Accademy, Associazione meridies sc, Catania (Italy)  <br/>
+                            - Assembly and disassembly of audio and lighting services  - Assistant to the audio director (studio and live sessions)  </p>
+                        </div>
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2009-2014
+                          </h6>
+                          <h4 className="timeline-title">Technical Electronics Diploma</h4>
+                          <p className="timeline-text">
+                            {`I.P.I.A. "G. Marconi", Vittoria (RG), Italia`}<br/>
+                            Final grade: 87/100
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>

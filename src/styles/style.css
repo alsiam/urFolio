@@ -1197,3 +1197,61 @@ select {
     max-width: 100%;
   }
 }
+
+/* Stili per il Carosello delle Tecnologie
+======================================================== */
+.tecnologie-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, #6d28d9, #2196f3);
+  border-radius: 8px;
+}
+
+.tecnologie-card:hover {
+  /* transform: translateY(-2px); */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tecnologie-card img {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tecnologie-card span {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #302e4d;
+}
+
+.tecnologie-card img.icon-background {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.tecnologie-card img.icon-background:hover {
+  background-color: #6d28d9;
+  color: #fff;
+}
+
+[data-theme='dark'] .tecnologie-card {
+  background-color: #222222;
+}
+
+[data-theme='dark'] .tecnologie-card span {
+  color: #e9e9e9;
+}
+
+[data-theme='dark'] .tecnologie-card img.icon-background {
+  background-color: #444;
+}
+
+[data-theme='dark'] .tecnologie-card img.icon-background:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
