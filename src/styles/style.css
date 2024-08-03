@@ -221,6 +221,56 @@ select {
     transform: rotate(360deg);
   }
 }
+/* Banner Style */
+/* =========================================================== */
+/* Temp layout */
+.temp-layout{
+  margin-top: 40px;
+  height: 100%;
+}
+.banner{
+  z-index: 999;
+  position: relative;
+  background: rgb(0, 132, 255);
+  font-weight: 500;
+  padding: 12px 0;
+}
+.banner-wrap{
+display: flex;;
+justify-content: center;
+align-items: center;
+}
+.banner-card{
+  font-size: 16px;
+  color: white;
+  background-color: crimson;
+  padding: 1px 10px;
+  border-radius: 10px;
+  margin-right: 4px;
+  font-weight: 600;
+}
+.banner-desc{
+  text-align: center;
+  font-weight: 500;
+}
+.banner-btn{
+  outline: none;
+  border: none;;
+  color: black;
+  background-color: white;
+  padding: 2px 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  border-radius: 8px;
+  min-width: max-content;
+  max-width: max-content;
+  transition: .3s ease-in-out;
+}
+.banner-btn:hover{
+  color: white;
+  background-color: black;
+}
 
 /* Aside bar Style
 ================================================================ */
@@ -1163,7 +1213,10 @@ select {
     margin-left: 0;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
+  .banner{
+    padding: 20px 0;
+  }
   .blog .blog-item,
   .portfolio .portfolio-item,
   .service .service-item {
@@ -1172,7 +1225,10 @@ select {
     max-width: 50%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .banner{
+    padding: 20px 0;
+  }
   .contact .contact-form .col-6,
   .blog .blog-item,
   .service .service-item,
@@ -1189,6 +1245,21 @@ select {
   }
 }
 @media (max-width: 575px) {
+  .banner{
+    padding: 20px 0;
+  }
+  .banner-wrap{
+    display: block;
+  }
+  .banner-desc{
+    font-size: 14px;
+  }
+  .banner-btn{
+    width: max-content;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 3px;
+  }
   .contact .contact-info-item,
   .portfolio .portfolio-item {
     -ms-flex: 0 0 100%;
